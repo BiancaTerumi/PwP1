@@ -1,0 +1,114 @@
+
+.cost span{
+	color: red;
+	font-weight:  bold;
+	font-size: 20px;
+}
+
+.linkCompras{
+    color:white;
+    text-decoration: none;
+}
+.cursor{
+	cursor: pointer;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.card {
+    
+    outline: none;
+    background-color: white;
+    border-radius: 20px; 
+    transition: transform .3s;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    transition: transform .3s;
+}
+
+.configCards{
+	width: 370px;
+	margin: auto;
+	padding: auto;
+	justify-content: center;
+}
+
+.jumbotron{
+	background: rgb(0,63,92);
+    background: linear-gradient(0deg, rgba(0,63,92,1) 0%, rgba(88,80,141,1) 100%);
+
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium';
+}
+body {
+    
+    min-width: 372px;
+    background-color: white;
+}
+
+#btnBuscar:hover {
+    background: rgb(0,63,92);
+    background: linear-gradient(0deg, rgba(0,63,92,1) 0%, rgba(88,80,141,1) 100%);
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.container-fluid {
+    align-items: center;
+    height: auto;
+    padding: 0;
+}
+#bonitinho {
+    margin-left: 15%;
+}
+#bonitinho:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+    transform: scale(1.25);
+
+}
+#menuzinho {
+    margin-left: 10%;
+    font-size: 24px;
+}
+#menuzinho:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+    transform: scale(1.25);
+}
+.topo {
+    padding: 0;
+}
+#logo {
+    width: 75px;
+    height: 75px;
+    margin-left: 10%;
+}
+#carrinho {
+    width: 50px;
+    height: 50px;
+}
+#carrinho:hover {
+    opacity: 0.8;
+}
+
+#logini {
+    width: 50px;
+    height: 50px;
+}
+#logini:hover {
+    opacity: 0.8;
+}
+
+#logo:hover {
+    opacity: 0.8;
+}
+
+.text1{
+    font-size: large;
+    font-family: Arial;
+}

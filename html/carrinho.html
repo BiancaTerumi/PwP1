@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+          crossorigin="anonymous">
+        </script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="../css/carrinho.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+        <link rel="icon" href="../img/favicon.ico">
+        <title>Carrinho de Compras</title>
+    </head>
+    
+    <body>
+        <div class="topo">
+            <nav class="navbar navbar-light" style="background-color: white;">
+                <div class="container-fluid" id="topoConteainer">
+                    <a href="#"><img src="../img/maskzeldaicon.png" id="logo" /></a>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"
+                        style="margin: 0 auto;">
+                        <button class="btn" type="submit" id="btnBuscar">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                    <div class='icones'>
+                        <a href="/html/login.html"><img src="../img/midnaicon.png" id="logini" /></a>
+                        <a href="#"><img src="../img/bag.png" id="carrinho" /></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background: rgb(0,63,92);
+                background: linear-gradient(0deg, rgba(0,63,92,1) 0%, rgba(88,80,141,1) 100%);">
+                <div class="container-fluid text-xs-center">
+                    <a class="navbar-brand" id="menuzinho" href="#">Hyrule Shop</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav" id="itensMenu">
+                            <a id="bonitinho" class="nav-link active" aria-current="page" href="#">Consoles</a>
+                            <a id="bonitinho" class="nav-link active" aria-current="page" href="#">Jogos</a>
+                            <a id="bonitinho" class="nav-link active" aria-current="page" href="#">Ofertas</a>
+                            <a id="bonitinho" class="nav-link active" aria-current="page" href="#">Acessórios</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+        <br><br>
+
+        <div class="container" id="jogosCarrinho">
+            <h4>Carrinho de Compras
+                <span class="price" style="color:black">
+                    <b>Nº de Produtos</b>
+                    <i class="fa fa-shopping-cart"></i>
+                    <b>3</b>
+                </span>
+            </h4>
+            <hr>
+            <div class="product-1 p-2">
+                <img src="../img/img7.png" alt="" class="rounded" width="200">
+                <p><a href="#">Pokémon Legends: Arceus</a></p>
+                <span class="price">Preço: $66.88</span>
+            </div>
+            <hr>
+            <div class="product-1 p-2">
+                <img src="../img/img3.png" alt="" class="rounded" width="200">
+                <p><a href="#">Super Mario 3D World</a></p>
+                <span class="price">Preço: $99.99</span>
+            </div>
+            <hr>
+            <div class="product-1 p-2">
+                <img src="../img/img2.png" alt="" class="rounded" width="200">
+                <p><a href="#">The Legend of Zelda: Breath of the Wild</a></p>
+                <span class="price">Preço: $69.90</span>
+            </div>
+        </div>
+        <div class="container" id="jogosCarrinho">
+            <span class="price"><b>TOTAL: $236.77</b></span>
+        </div>
+        <div class="container form-group">
+            <input name="return-shop" class="btn btn-lg btn-primary btn-block" value="Retornar à Loja" type="submit" id="cartButton" onclick="retornar();">
+        </div>
+        <div class="container form-group">
+            <input name="finish-buying" class="btn btn-lg btn-primary btn-block" value="Finalizar Compra" type="submit" id="cartButton" onclick="validar();" >
+        </div>
+    </body>
+
+    <footer class="bg-dark text-center text-white">
+        <div class="container p-4">
+            <section class="mb-4">
+                <img src="../img/facebook.png" width="45px" href="/img/facebook.png" role="button">
+                <img src="../img/Twitter.png" width="45px" href="/img/Twitter.png" role="button">
+                <img src="../img/google.png" width="45px" href="/img/google.png" role="button">
+                <img src="../img/Instagram.png" width="45px" href="/img/Instagram.png" role="button">
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white">Copyright</a>
+        </div>
+    </footer>
+      
+</html>
+
+<script lang="javascript">
+    function validar(){
+        alert("Iremos direcionar você para a página de pagamento.");
+    }
+    function retornar(){
+        alert("Retornando para à loja.");
+        window.location = 'vitrine.html'
+    }    
+</script>

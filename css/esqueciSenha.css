@@ -1,0 +1,49 @@
+.form-gap {
+    padding-top: 70px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(0,63,92);
+    background: linear-gradient(0deg, rgba(0,63,92,1) 0%, rgba(88,80,141,1) 100%);
+    height: 100vh;
+    display: flex;
+}
+.btn {
+    
+    background: rgb(0,63,92);
+    background: linear-gradient(0deg, rgba(0,63,92,1) 0%, rgba(88,80,141,1) 100%);
+
+}
+.container { 
+   
+width: 100vw;
+height: 65vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+   /* top: 0;
+   left: 0;
+   right: 20px;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;  */
+  
+
+}
+#senhabox {
+     
+    padding: 40px;
+    max-width: 600px;
+    height: 320px;
+    width: 400px;
+    border: solid 5px #1A1A2E;
+    background-color: #1A1A2E;
+
+    
+}

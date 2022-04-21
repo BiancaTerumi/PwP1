@@ -1,0 +1,100 @@
+h2 {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium';
+}
+body {
+    min-width: 372px;
+    background-color: white;
+}
+
+#btnBuscar:hover {
+    background: rgb(0,63,92);
+    background: linear-gradient(0deg, rgba(0,63,92,1) 0%, rgba(88,80,141,1) 100%);
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.container-fluid {
+    padding: 0;
+}
+#bonitinho {
+    margin-left: 15%;
+}
+#bonitinho:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+    transform: scale(1.25);
+
+}
+#carouselExampleCaptions .carousel-inner, #carouselExampleCaptions .carousel-item {
+    height: 60vh;
+}
+#menuzinho {
+    margin-left: 10%;
+    font-size: 24px;
+}
+#menuzinho:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+    transform: scale(1.25);
+}
+.topo {
+    padding: 0;
+}
+#logo {
+    width: 75px;
+    height: 75px;
+    margin-left: 10%;
+}
+#carrinho {
+    width: 50px;
+    height: 50px;
+}
+#carrinho:hover {
+    opacity: 0.8;
+}
+
+#logini {
+    width: 50px;
+    height: 50px;
+}
+#logini:hover {
+    opacity: 0.8;
+}
+
+#logo:hover {
+    opacity: 0.8;
+}
+.jumbotron{
+	background: rgb(0,63,92);
+background: linear-gradient(0deg, rgba(0,63,92,1) 0%, rgba(88,80,141,1) 100%);
+
+}
+#h1MaisVendidos {
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+    text-align: center;
+    background: rgb(0,63,92);
+background: linear-gradient(0deg, rgba(0,63,92,1) 0%, rgba(88,80,141,1) 100%);
+}
+
+.configCards{
+    width: auto;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+}
+
+.star{
+    color:orange;
+}
+
+.shoe{
+     background: green;
+    color: white;
+    text-align: center
+}
+
+.linkCompras{
+    color:white;
+    text-decoration: none;
+}
